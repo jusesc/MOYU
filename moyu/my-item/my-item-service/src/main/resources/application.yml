@@ -5,11 +5,12 @@ spring:
     name: item-service
   datasource:
     url: jdbc:mysql://localhost:3306/moyu_store
-    username: root
-    password: 123
+    username: debian-sys-maint
+    password: GsIUsuchqkWQAe0D
     hikari:
       maximum-pool-size: 30
       minimum-idle: 10
+    driver-class-name: com.mysql.jdbc.Driver
 eureka:
   client:
     service-url:
