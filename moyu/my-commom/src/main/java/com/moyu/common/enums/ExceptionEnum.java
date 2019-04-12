@@ -13,8 +13,9 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public enum ExceptionEnums {
+public enum ExceptionEnum {
     PRICE_CANNOT_BE_NULL(400, "价格不能为空!"),
+    CATEGORY_NOT_FOUND(404, "商品分类未找到"),
     ;
     private int code;
     private String msg;

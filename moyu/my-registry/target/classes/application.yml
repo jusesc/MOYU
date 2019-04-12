@@ -2,11 +2,13 @@ server:
   port: 10086
 spring:
   application:
-    name: my-registry
+    name: moyu-registry
 eureka:
   client:
+    fetch-registry: false # 是否拉取信息
+    register-with-eureka: false # 是否注册自己
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
+      defaultZone: http://127.0.0.1:${server.port}/eureka
   instance:
-    prefer-ip-address: true
-    ip-address: 127.0.0.1
+    prefer-ip-address: true # 优先获取ip地址
+    ip-address: 127.0.0.1 # 确定ip地址

@@ -43,11 +43,18 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
+        <!--引入item接口-->
     <dependency>
         <groupId>com.moyu.service</groupId>
         <artifactId>my-item-interface</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </dependency>
+        <!--引入common 通用异常处理 通用工具-->
+        <dependency>
+            <groupId>com.moyu.parent</groupId>
+            <artifactId>my-commom</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
 </dependencies>
 
 </project>
