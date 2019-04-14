@@ -26,9 +26,11 @@ public class CategoryService {
      * @return
      */
     public List<Category> queryCategoryByPid(Long pid) {
-        // 查询条件, mapper会把对象中的非空属性作为查询条件
+        // 查询条件
         Category category = new Category();
         category.setParentId(pid);
+        // 通用mapper中的方法 .select(T) 会把对象中的非空属性作为查询条件
+        // 相当于 SELECT * FROM -- WHERE pid=#{pid}
         List<Category> categories = categoryMapper.select(category);
         // 判断结果
         // CollectionUtils.isEmpty(list) 等于 list == null || list.isEmpty()
