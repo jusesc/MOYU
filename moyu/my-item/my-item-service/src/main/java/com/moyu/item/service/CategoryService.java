@@ -1,7 +1,7 @@
 package com.moyu.item.service;
 
-import com.moyu.common.enums.ExceptionEnum;
-import com.moyu.common.exception.MyException;
+import com.moyu.gateway.enums.ExceptionEnum;
+import com.moyu.gateway.exception.MyException;
 import com.moyu.item.mapper.CategoryMapper;
 import com.moyu.item.pojo.Category;
 import org.springframework.beans.factory.annotation.Autowired;

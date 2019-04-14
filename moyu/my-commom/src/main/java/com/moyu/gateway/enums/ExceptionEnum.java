@@ -1,4 +1,4 @@
-package com.moyu.common.enums;
+package com.moyu.gateway.enums;
 
 
 import lombok.AllArgsConstructor;

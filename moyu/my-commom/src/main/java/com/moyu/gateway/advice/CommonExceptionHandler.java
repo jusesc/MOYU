@@ -1,7 +1,7 @@
-package com.moyu.common.advice;
+package com.moyu.gateway.advice;
 
-import com.moyu.common.exception.MyException;
-import com.moyu.common.vo.ExceptionResult;
+import com.moyu.gateway.exception.MyException;
+import com.moyu.gateway.vo.ExceptionResult;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

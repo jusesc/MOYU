@@ -1,6 +1,6 @@
-package com.moyu.common.exception;
+package com.moyu.gateway.exception;
 
-import com.moyu.common.enums.ExceptionEnum;
+import com.moyu.gateway.enums.ExceptionEnum;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

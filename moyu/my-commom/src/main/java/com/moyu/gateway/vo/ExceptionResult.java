@@ -1,6 +1,6 @@
-package com.moyu.common.vo;
+package com.moyu.gateway.vo;
 
-import com.moyu.common.enums.ExceptionEnum;
+import com.moyu.gateway.enums.ExceptionEnum;
 import lombok.Data;
 
 /**
