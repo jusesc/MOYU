@@ -53,58 +53,51 @@
         ]
       }
     },
+    watch: {
+        pagination: {
+          deep: true,
+          handler(){
+            this.getDataFromServer();
+          }
+        },
+        search: {
+          handler(){
+            this.getDataFromServer();
+          }
+        }
+    },
     mounted(){ // 渲染后执行
       // 查询数据
       this.getDataFromServer();
     },
     methods:{
       getDataFromServer(){ // 从服务的加载数的方法。
-        // 伪造假数据
-        const brands = [
-          {
-            "id": 2032,
-            "name": "Apple",
-            "image": "http://img10.360buyimg.com/popshop/jfs/t2119/133/2264148064/4303/b8ab3755/56b2f385N8e4eb051.jpg",
-            "letter": "O",
-            "categories": null
-          },
-          {
-            "id": 2033,
-            "name": "Banana",
-            "image": "http://img12.360buyimg.com/popshop/jfs/t18361/122/1318410299/1870/36fe70c9/5ac43a4dNa44a0ce0.jpg",
-            "letter": "F",
-            "categories": null
-          },
-          {
-            "id": 2034,
-            "name": "Carbon",
-            "image": "http://img10.360buyimg.com/popshop/jfs/t5662/36/8888655583/7806/1c629c01/598033b4Nd6055897.jpg",
-            "letter": "H",
-            "categories": null
-          },
-          {
-            "id": 2036,
-            "name": "Dog",
-            "image": "http://img10.360buyimg.com/popshop/jfs/t2521/347/883897149/3732/91c917ec/5670cf96Ncffa2ae6.jpg",
-            "letter": "K",
-            "categories": null
-          },
-          {
-            "id": 2037,
-            "name": "Fat",
-            "image": "http://img13.360buyimg.com/popshop/jfs/t3511/131/31887105/4943/48f83fa9/57fdf4b8N6e95624d.jpg",
-            "letter": "M",
-            "categories": null
+        // 发起get请求
+        this.$http.get("/item/brand/page",{
+          params: {
+            key: this.search, // 搜索条件
+            page: this.pagination.page, // 当前页
+            rows: this.pagination.rowsPerPage, // 每页条数
+            sortBy: this.pagination.sortBy, // 排序字段
+            desc: this.pagination.descending // 是否降序
           }
-        ];
-        // 模拟延迟一段时间，随后进行赋值
+        }).then(resp => {  // 箭头函数 返回请求成功后的内容
+            console.log(resp);
+            // 将得到的数据赋值给页面属性
+            this.brands = resp.data.items; // 当前页面数据
+            this.totalBrands = resp.data.total;// 数据总条数
+            // 加载赋值后, 把加载状态赋值为false
+            this.loading = false;
+          });
+
+        /*// 模拟延迟一段时间，随后进行赋值
         setTimeout(() => {
           // 然后赋值给brands
           this.brands = brands;
           this.totalBrands = brands.length;
           // 完成赋值后，把加载状态赋值为false
           this.loading = false;
-        },400)
+        },400)*/
       }
     }
   }

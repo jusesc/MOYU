@@ -1,7 +1,7 @@
 package com.moyu.item.controller;
 
 import com.moyu.item.pojo.Category;
-import com.moyu.item.service.CategoryService;
+import com.moyu.item.service.impl.CategoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +20,7 @@ import java.util.List;
 public class CategoryController {
 
     @Autowired
-    private CategoryService categoryService;
+    private CategoryServiceImpl categoryService;
 
     /**
      * 根据父节点id查询商品分类
