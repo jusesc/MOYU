@@ -5,6 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
+ * 分页查询结果封装类
  * @author JL
  * @date 19-4-14 下午7:00
  */

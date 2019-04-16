@@ -2,7 +2,7 @@
   <v-card>
     <!--卡片头部-->
     <v-card-title>
-    <v-btn color="primary">新增</v-btn>
+    <v-btn color="primary" @click="addBrand">新增厂商</v-btn>
       <!--空间隔离组件-->
       <v-spacer />
       <!--搜索框，与search属性关联-->
@@ -31,10 +31,32 @@
         </td>
       </template>
     </v-data-table>
-  </v-card>
+
+
+      <!--弹出的对话框-->
+      <v-dialog max-width="500" v-model="show" persistent>
+        <v-card>
+          <!--对话框的标题-->
+          <v-toolbar dense dark color="primary">
+            <v-toolbar-title>新增品牌</v-toolbar-title>
+          <v-spacer/>
+          <!--关闭窗口的按钮-->
+          <v-btn icon @click="closeWindow"><v-icon>close</v-icon></v-btn>
+          </v-toolbar>
+          <!--对话框的内容，表单-->
+          <v-card-text class="px-5" >
+            <my-brand-form @close="closeWindow"/>
+          </v-card-text>
+        </v-card>
+      </v-dialog>
+
+    </v-card>
 </template>
 
 <script>
+
+  import MyBrandForm from './MyBrandForm'
+
   export default {
     name: "my-brand",
     data() {
@@ -50,7 +72,8 @@
           {text: 'LOGO', align: 'center',value: 'image',  sortable: false},
           {text: '首字母', align: 'center', value: 'letter', sortable: true},
           {text: '操作', align: 'center', value: 'id', sortable: false}
-        ]
+        ],
+        show: false
       }
     },
     watch: {
@@ -89,17 +112,22 @@
             // 加载赋值后, 把加载状态赋值为false
             this.loading = false;
           });
-
-        /*// 模拟延迟一段时间，随后进行赋值
-        setTimeout(() => {
-          // 然后赋值给brands
-          this.brands = brands;
-          this.totalBrands = brands.length;
-          // 完成赋值后，把加载状态赋值为false
-          this.loading = false;
-        },400)*/
+      },
+      addBrand(){
+        // 控制弹窗可见：
+        this.show = true;
+      },
+      closeWindow(){
+        // 关闭窗口
+        this.show = false;
+        // 重新加载数据
+        this.getDataFromServer();
       }
+    },
+    components:{
+      MyBrandForm
     }
+
   }
 </script>
 

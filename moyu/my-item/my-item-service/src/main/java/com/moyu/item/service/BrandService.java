@@ -3,6 +3,8 @@ package com.moyu.item.service;
 import com.moyu.gateway.vo.PageResult;
 import com.moyu.item.pojo.Brand;
 
+import java.util.List;
+
 /**
  * @author JL
  * @date 19-4-14 下午4:53
@@ -19,4 +21,11 @@ public interface BrandService {
      * @return
      */
     PageResult<Brand> queryBrandByPage(Integer page, Integer rows, String sortBy, Boolean desc, String key);
+
+    /**
+     * 新增厂商
+     * @param brand 厂商信息
+     * @param cids 分类信息
+     */
+    void saveBrand(Brand brand, List<Long> cids);
 }

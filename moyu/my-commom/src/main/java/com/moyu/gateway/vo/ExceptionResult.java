@@ -4,6 +4,7 @@ import com.moyu.gateway.enums.ExceptionEnum;
 import lombok.Data;
 
 /**
+ * 异常结果封装类
  * @author JL
  * @date 19-4-10 下午12:31
  */

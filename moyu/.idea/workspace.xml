@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21c82479-f6c9-4637-bcf5-b039e7ad9310" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../moyu-manage-web/src/pages/item/MyBrandForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/my-upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/MyUploadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/impl/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-upload/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../moyu-manage-web/src/pages/item/MyBrand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../moyu-manage-web/src/pages/item/MyBrand.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-item/my-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-item/my-item-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +35,7 @@
     <ignored path="$PROJECT_DIR$/my-item/my-item-interface/target/" />
     <ignored path="$PROJECT_DIR$/my-item/my-item-service/target/" />
     <ignored path="$PROJECT_DIR$/my-commom/target/" />
+    <ignored path="$PROJECT_DIR$/my-upload/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="375">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,45 +60,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java">
+        <entry file="file://$PROJECT_DIR$/my-upload/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/MyUploadApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+            <state relative-caret-position="357">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java">
+        <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/controller/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/CategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
+            <state relative-caret-position="264">
               <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java">
+        <entry file="file://$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/config/GlobalCorsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="481">
+              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,10 +107,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java">
+        <entry file="file://$PROJECT_DIR$/my-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="357">
+              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/impl/UploadServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,37 +128,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java">
+        <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/UploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="465">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/advice/CommonExceptionHandler.java">
+        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/MyitemApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -159,8 +150,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -177,8 +168,6 @@
         <option value="$PROJECT_DIR$/my-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/common/MyGateway.java" />
         <option value="$PROJECT_DIR$/my-item/pom.xml" />
-        <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/my-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/my-registry/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/common/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/common/utils/CommonExceptionHandler.java" />
@@ -198,18 +187,31 @@
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/MyitemApplication.java" />
         <option value="$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/config/GlobalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/CategoryService.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandService.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Brand.java" />
-        <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java" />
+        <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java" />
+        <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/MyUploadApplication.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/MyUploadApplication.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/servi/UploadService.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/impl/UploadService.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/config/GlobalCorsConfig.java" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/my-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/my-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/impl/UploadServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -285,46 +287,6 @@
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="advice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
               <item name="my-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,25 +309,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
@@ -378,34 +321,25 @@
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -413,48 +347,7 @@
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -463,114 +356,46 @@
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="my-upload" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item" type="462c0819:PsiDirectoryNode" />
-              <item name="my-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="moyu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="moyu" type="462c0819:PsiDirectoryNode" />
-              <item name="my-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -586,14 +411,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/my-commom/src/main/java/com/moyu/common/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5587734" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -635,6 +460,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.moyu.MyUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyitemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="my-item-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moyu.MyitemApplication" />
@@ -646,6 +478,7 @@
       <item itemvalue="Spring Boot.MyGateway" />
       <item itemvalue="Spring Boot.MyitemApplication" />
       <item itemvalue="Spring Boot.MyRegistry" />
+      <item itemvalue="Spring Boot.MyUploadApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -677,7 +510,9 @@
       <workItem from="1555063250676" duration="10489000" />
       <workItem from="1555117363734" duration="255000" />
       <workItem from="1555217759221" duration="16184000" />
-      <workItem from="1555340096974" duration="1240000" />
+      <workItem from="1555340096974" duration="2422000" />
+      <workItem from="1555383560269" duration="4891000" />
+      <workItem from="1555395673939" duration="15102000" />
     </task>
     <task id="LOCAL-00001" summary="修改数据库信息">
       <created>1554813392545</created>
@@ -725,13 +560,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49797000" />
+    <option name="totallyTimeSpent" value="70972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19083156" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -752,8 +587,8 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3279743" />
-      <window_info anchor="bottom" id="Spring" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.2217438" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32938644" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.2615716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -831,65 +666,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.4.RELEASE/spring-boot-starter-parent-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2658">
-          <caret line="151" column="36" lean-forward="true" selection-start-line="151" selection-start-column="36" selection-end-line="151" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/tk/mybatis/mapper-spring-boot-starter/2.0.2/mapper-spring-boot-starter-2.0.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.1.RELEASE/spring-cloud-commons-2.1.1.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/MyGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/utils/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3379">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-registry/src/main/java/com/moyu/MyRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -934,16 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/exception/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,40 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/config/GlobalCorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/MyitemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/CategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -1072,60 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="394">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1134,38 +822,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="-241">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/CategoryController.java">
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="341">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-interface/src/main/java/com/moyu/item/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/BrandService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1182,10 +907,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="1147">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1194,8 +929,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/item/service/impl/BrandServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+        <state relative-caret-position="972">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/MyGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/vo/ExceptionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-registry/src/main/java/com/moyu/MyRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-item/my-item-service/src/main/java/com/moyu/MyitemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_201/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="206" column="7" lean-forward="true" selection-start-line="206" selection-start-column="7" selection-end-line="206" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-commom/src/main/java/com/moyu/gateway/enums/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/MyUploadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-gateway/src/main/java/com/moyu/gateway/config/GlobalCorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-upload/src/main/java/com/moyu/upload/service/impl/UploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1254,7 +1132,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>my-registry</last-edited>
+          <last-edited>my-commom</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-item-service" />
-        <module name="my-item-interface" />
-        <module name="my-registry" />
-        <module name="my-gateway" />
+        <module name="my-upload" />
         <module name="my-commom" />
+        <module name="my-item-service" />
+        <module name="my-gateway" />
+        <module name="my-registry" />
+        <module name="my-item-interface" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="my-item-interface" options="-parameters" />
       <module name="my-item-service" options="-parameters" />
       <module name="my-registry" options="-parameters" />
+      <module name="my-upload" options="-parameters" />
     </option>
   </component>
 </project>

@@ -12,6 +12,7 @@
         <module>my-gateway</module>
         <module>my-item</module>
         <module>my-commom</module>
+        <module>my-upload</module>
     </modules>
     <packaging>pom</packaging>
 
