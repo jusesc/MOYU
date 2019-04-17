@@ -2,6 +2,7 @@ package com.moyu.item.controller;
 
 import com.moyu.gateway.vo.PageResult;
 import com.moyu.item.pojo.Brand;
+import com.moyu.item.pojo.Category;
 import com.moyu.item.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -44,6 +45,5 @@ public class BrandController {
             brandService.saveBrand(brand, cids);
             return ResponseEntity.status(HttpStatus.CREATED).build();
     }
-
 
 }

@@ -26,7 +26,8 @@
         <td class="text-xs-center"><img :src="props.item.image"></td>
         <td class="text-xs-center">{{ props.item.letter }}</td>
         <td class="justify-center layout">
-          <v-btn color="info">编辑</v-btn>
+          <!--通过props把父组件的数据传递给子组件-->
+          <v-btn color="info" @click="editBrand(props.item)" >编辑</v-btn>
           <v-btn color="warning">删除</v-btn>
         </td>
       </template>
@@ -38,14 +39,14 @@
         <v-card>
           <!--对话框的标题-->
           <v-toolbar dense dark color="primary">
-            <v-toolbar-title>新增品牌</v-toolbar-title>
+            <v-toolbar-title>{{isEdit ? "修改" : "新增"}}厂商</v-toolbar-title>
           <v-spacer/>
           <!--关闭窗口的按钮-->
           <v-btn icon @click="closeWindow"><v-icon>close</v-icon></v-btn>
           </v-toolbar>
           <!--对话框的内容，表单-->
           <v-card-text class="px-5" >
-            <my-brand-form @close="closeWindow"/>
+            <my-brand-form @close="closeWindow" :oldBrand="oldBrand" :isEdit="isEdit"/>
           </v-card-text>
         </v-card>
       </v-dialog>
@@ -73,7 +74,9 @@
           {text: '首字母', align: 'center', value: 'letter', sortable: true},
           {text: '操作', align: 'center', value: 'id', sortable: false}
         ],
-        show: false
+        show: false, // 控制对话框显示
+        oldBrand: {}, // 即将被编辑的品牌数据
+        isEdit: false // 是否是编辑
       }
     },
     watch: {
@@ -114,8 +117,26 @@
           });
       },
       addBrand(){
+        // 修改标记
+        this.isEdit = false;
         // 控制弹窗可见：
         this.show = true;
+        // 把oldBrand变为null
+        this.oldBrand = null;
+      },
+      editBrand(oldBrand){
+        // 根据品牌信息查询商品分类
+        this.$http.get("/item/category/bid/" + oldBrand.id)
+          .then(({data}) => {
+            // 修改标记
+            this.isEdit = true;
+            // 控制弹窗可见：
+            this.show = true;
+            // 获取要编辑的brand
+            this.oldBrand = oldBrand
+            // 回显商品分类
+            this.oldBrand.categories = data;
+          })
       },
       closeWindow(){
         // 关闭窗口
