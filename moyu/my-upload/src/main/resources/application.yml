@@ -14,3 +14,21 @@ eureka:
   instance:
     ip-address: 127.0.0.1
     prefer-ip-address: true
+# FastFDS
+fdfs:
+  so-timeout: 1501
+  connect-timeout: 601
+  thumb-image: # 缩略图
+    width: 200
+    height: 200
+  tracker-list: # tracker地址
+    - 172.20.10.13:22122
+
+my:
+  upload:
+    baseUrl: http://image.moyu.com/
+    allowTypes:
+      - image/jpeg
+      - image/jpg
+      - image/bmp
+      - image/png
