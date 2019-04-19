@@ -1,11 +1,10 @@
 package com.moyu.item.service.impl;
 
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.moyu.gateway.enums.ExceptionEnum;
-import com.moyu.gateway.exception.MyException;
-import com.moyu.gateway.vo.PageResult;
+import com.moyu.common.enums.ExceptionEnum;
+import com.moyu.common.exception.MyException;
+import com.moyu.common.vo.PageResult;
 import com.moyu.item.mapper.BrandMapper;
 import com.moyu.item.pojo.Brand;
 import com.moyu.item.service.BrandService;
@@ -81,5 +80,51 @@ public class BrandServiceImpl implements BrandService {
         }
     }
 
+    @Override
+    @Transactional
+    public void deleteBrandInfo(Long bid) {
+        Brand brand = new Brand();
+        brand.setId(bid);
+        // 删除tb_brand表中的数据
+        int delete = brandMapper.delete(brand);
+        if (delete != 1) {
+            throw new MyException(ExceptionEnum.BRAND_NOT_FOUND);
+        }
+        //删除tb_category_brand表中的关联数据
+        int deleteByBrandId = brandMapper.deleteByBrandId(bid);
+        if (deleteByBrandId == 0) {
+            throw new MyException(ExceptionEnum.BRAND_NOT_FOUND);
+        }
 
+    }
+
+    /**
+     * 通过id查询厂商名称
+     *
+     * @param id
+     */
+    @Override
+    public Brand queryById(Long id) {
+        Brand brand = brandMapper.selectByPrimaryKey(id);
+        if (brand == null) {
+            throw new MyException(ExceptionEnum.BRAND_NOT_FOUND);
+        }
+
+        return brand;
+    }
+
+
+    /**
+     * 通过中间表查询category_id
+     * @param cid
+     * @return
+     */
+    @Override
+    public List<Brand> queryBrandByCid(Long cid) {
+        List<Brand> list = brandMapper.queryByCategoryId(cid);
+        if (CollectionUtils.isEmpty(list)) {
+            throw new MyException(ExceptionEnum.BRAND_NOT_FOUND);
+        }
+        return list;
+    }
 }

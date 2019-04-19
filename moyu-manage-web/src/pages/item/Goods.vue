@@ -38,7 +38,7 @@
     >
       <template slot="items" slot-scope="props">
         <td class="text-xs-center">{{ props.item.id }}</td>
-        <td class="text-xs-center">{{ props.item.title }}</td>
+        <td class="text-xs-center">{{ props.item.name }}</td>
         <td class="text-xs-center">{{props.item.cname}}</td>
         <td class="text-xs-center">{{ props.item.bname }}</td>
         <td class="justify-center layout px-0">

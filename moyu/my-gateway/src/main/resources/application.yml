@@ -2,7 +2,7 @@ server:
   port: 10010
 spring:
   application:
-    name: moyu-api-gateway
+    name: moyu-api-common
 eureka:
   client:
     service-url:

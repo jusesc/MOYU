@@ -13,6 +13,7 @@
         <module>my-item</module>
         <module>my-commom</module>
         <module>my-upload</module>
+        <module>my-sms</module>
     </modules>
     <packaging>pom</packaging>
 

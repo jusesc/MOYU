@@ -1,6 +1,6 @@
 package com.moyu.item.service;
 
-import com.moyu.gateway.vo.PageResult;
+import com.moyu.common.vo.PageResult;
 import com.moyu.item.pojo.Brand;
 
 import java.util.List;
@@ -28,4 +28,18 @@ public interface BrandService {
      * @param cids 分类信息
      */
     void saveBrand(Brand brand, List<Long> cids);
+
+    /**
+     * 删除 tb_brand 和tb_category_brand 中的厂商数据
+     * @param bid 厂商的id
+     */
+    void deleteBrandInfo(Long bid);
+
+    /**
+     * 通过id查询厂商名称
+     * @param id
+     */
+    Brand queryById(Long id);
+
+    List<Brand> queryBrandByCid(Long cid);
 }

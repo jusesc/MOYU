@@ -1,7 +1,7 @@
 package com.moyu.item.service.impl;
 
-import com.moyu.gateway.enums.ExceptionEnum;
-import com.moyu.gateway.exception.MyException;
+import com.moyu.common.enums.ExceptionEnum;
+import com.moyu.common.exception.MyException;
 import com.moyu.item.mapper.CategoryMapper;
 import com.moyu.item.pojo.Category;
 import com.moyu.item.service.CategoryService;
@@ -49,6 +49,16 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public List<Category> queryByBrandId(Long bid) {
         List<Category> categories = categoryMapper.queryByBrandId(bid);
+        return categories;
+    }
+
+    @Override
+    public List<Category> queryByIds(List<Long> ids) {
+        // 查询 通过list中的id查找商品分类
+        List<Category> categories = categoryMapper.selectByIdList(ids);
+        if (CollectionUtils.isEmpty(categories)){
+            throw new MyException(ExceptionEnum.CATEGORY_NOT_FOUND);
+        }
         return categories;
     }
 }

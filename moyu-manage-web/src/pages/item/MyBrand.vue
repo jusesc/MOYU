@@ -28,7 +28,7 @@
         <td class="justify-center layout">
           <!--通过props把父组件的数据传递给子组件-->
           <v-btn color="info" @click="editBrand(props.item)" >编辑</v-btn>
-          <v-btn color="warning">删除</v-btn>
+          <v-btn color="warning" @click="deleteBrand(props.item)">删除</v-btn>
         </td>
       </template>
     </v-data-table>
@@ -123,6 +123,18 @@
         this.show = true;
         // 把oldBrand变为null
         this.oldBrand = null;
+      },
+      deleteBrand(oldBrand) {
+        this.$message.confirm("确认要删除该厂商吗？")
+          .then(() => {
+            this.$http.get("/item/brand/bid/" + oldBrand.id)
+              .then(({data}) => {
+                // 获取要编辑的brand
+                this.oldBrand = oldBrand;
+                // 重新加载数据
+                this.getDataFromServer();
+              })
+          })
       },
       editBrand(oldBrand){
         // 根据品牌信息查询商品分类

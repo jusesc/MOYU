@@ -26,7 +26,8 @@
 
     <v-layout class="my-4" row >
       <v-spacer/>
-      <v-btn @click="submit" color="primary">提交</v-btn>
+      <v-btn v-if="isEdit" @click="" color="primary">更新</v-btn>
+      <v-btn v-else @click="submit" color="primary">提交</v-btn>
       <v-btn @click="clear" >重置</v-btn>
     </v-layout>
 
@@ -79,9 +80,9 @@
           // 5.将数据提交到后台
           // this.$http.post('/item/brand', this.$qs.stringify(params))
           this.$http({
-            method: this.isEdit ? 'put' : 'post', // 动态判断是POST还是PUT
+            method: this.isEdit ? 'post' : 'post', // 动态判断是POST还是PUT controller用的是PostMapping
             url: '/item/brand',
-            data: this.$qs.stringify(this.brand)
+            data: this.$qs.stringify(params)
           }).then(() => {
             // 关闭窗口
             this.$emit("close");
@@ -91,7 +92,7 @@
               this.$message.error("保存失败！");
             });
         }
-    },
+      },
       clear(){
         // 重置表单
         this.$refs.myBrandForm.reset();

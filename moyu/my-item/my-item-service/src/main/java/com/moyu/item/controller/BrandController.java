@@ -1,8 +1,7 @@
 package com.moyu.item.controller;
 
-import com.moyu.gateway.vo.PageResult;
+import com.moyu.common.vo.PageResult;
 import com.moyu.item.pojo.Brand;
-import com.moyu.item.pojo.Category;
 import com.moyu.item.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -46,4 +45,24 @@ public class BrandController {
             return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
+    /**
+     * 删除厂商信息
+     * @param bid
+     * @return
+     */
+    @GetMapping("bid/{bid}")
+    public ResponseEntity<Void> deleteBrandInfo(@PathVariable("bid") Long bid) {
+        brandService.deleteBrandInfo(bid);
+        return ResponseEntity.status(HttpStatus.OK).build();
+    }
+
+    /**
+     * 根据cid查询厂商
+     * @param cid
+     * @return
+     */
+    @GetMapping("/cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable("cid") Long cid) {
+        return ResponseEntity.ok(brandService.queryBrandByCid(cid));
+    }
 }

@@ -55,6 +55,9 @@
             <artifactId>my-commom</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
-</dependencies>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+    </dependencies>
 </project>
